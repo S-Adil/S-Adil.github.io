@@ -1,0 +1,83 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 2 version
+*/
+
+/*
+Colors used
+
+Text Color (black): black;
+Background Color (light yellow): #F6D860;
+Banner Color (dark orange): #EA5C2B;
+Primary color (light green): #95CD41;
+Secondary Color (light orange): #FF7F3F;
+*/
+
+body {
+  background-color: #F6D860;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 */
+  font-weight: 800;
+  text-align: center;
+}
+
+h1 {
+  font-size:30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.container {
+  margin-top: 60px;
+}
+
+/* Centering profile content */
+
+.pokemon {
+  max-width: 700px;
+  /* No spacing to top and bottom and auto-spacing to left and right, which centres the container horizontally*/
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+/* styling the buttons and making them responsive with a media query */
+.pokemon-list {
+  display: -ms-grid;
+  display: grid;
+  padding: inherit;
+  border:0.1em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.pokemon-list:hover {
+  color:#000000;
+}
+
+.btn-outline-dark {
+  color: black;
+  font-weight: black;
+  margin: 5px;
+}
